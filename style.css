@@ -4,7 +4,7 @@
 body
 {
     /* 文字色を白に */
-    color: white;
+    color: rgb(179, 0, 137);
     /* 背景色を黒に */
     background-color: black;
 }
