@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>時刻表示</title>
-<script type="text/javascript" src="javascript.js"></script>
-<link rel="stylesheet" href="style.css">
+    <!-- 文字コードの宣言 -->
+    <meta charset="UTF-8">
+    <!-- ページのタイトル(ブラウザのタイトルバーに表示) -->
+    <title>現在時刻の表示</title>
+    <!-- スタイルシート(CSS)読み込み -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- JavaScript読み込み -->
+    <script src="./javascript.js"></script>
 </head>
+
 <body>
-<input type="button" value="現在時刻を表示" onclick="showNowTime()">
-<input type="button" value="更新日時を表示" onclick="showLastModified()">
+    <!-- 時計枠 -->
+    <div id="clock_frame">
+        <!-- 日付部分 -->
+        <span id="clock_date"></span>
+        <!-- 時刻部分 -->
+        <span id="clock_time"></span>
+    </div>
 </body>
+
 </html>
